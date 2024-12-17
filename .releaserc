@@ -1,0 +1,18 @@
+{
+  "branches": [
+    "main",
+    {
+      "name": "pre-release",
+      "prerelease": true
+    }
+  ],
+  "ci": false,
+  "repositoryUrl": "https://github.com/ITtalent-Dev/semantic-vue.git",
+  "plugins": [
+    "@semantic-release/commit-analyzer",
+    "@semantic-release/release-notes-generator",
+    "@semantic-release/changelog",
+    "@semantic-release/git",
+    "@semantic-release/github"
+  ]
+}
