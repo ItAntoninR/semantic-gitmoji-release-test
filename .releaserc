@@ -7,7 +7,7 @@
     }
   ],
   "ci": false,
-  "repositoryUrl": "https://github.com/ITtalent-Dev/semantic-vue.git",
+  "repositoryUrl": "https://github.com/ItAntoninR/semantic-gitmoji-release-test.git",
   "plugins": [
     "@semantic-release/commit-analyzer",
     "@semantic-release/release-notes-generator",
