@@ -19,7 +19,7 @@ const loadPrivateKeyAndGenerateKid = async () => {
     const privateKey = await jose.importPKCS8(privateKeyPem, 'RS256')
 
     // Extraire le `kid` directement de la clé
-    kid.value = privateKey.kid || 'default-kid' // Si le `kid` n'est pas défini, on utilise un kid par défaut.
+    kid.value = privateKey.kid || 'default-kid-test-release' // Si le `kid` n'est pas défini, on utilise un kid par défaut.
 
     return { privateKey, kid: kid.value }
   } catch (error) {
