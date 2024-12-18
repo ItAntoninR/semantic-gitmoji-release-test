@@ -1,3 +1,12 @@
+# [1.1.0-qualif.1](https://github.com/ItAntoninR/semantic-gitmoji-release-test/compare/v1.0.2-qualif.1...v1.1.0-qualif.1) (2024-12-18)
+
+
+### Features
+
+* **alert:** remove alert ([1350399](https://github.com/ItAntoninR/semantic-gitmoji-release-test/commit/1350399873f2daf0d3d0069a31d06515ec3eef36))
+* **column:** remove useless column ([8788676](https://github.com/ItAntoninR/semantic-gitmoji-release-test/commit/87886766e7f7b3d9ad9253f43ada1f8f67596d92))
+* **comment:** add comment test ([c9c5adf](https://github.com/ItAntoninR/semantic-gitmoji-release-test/commit/c9c5adf10460a6ab89bf359bced0678bea7e7c1e))
+
 ## [1.0.2-qualif.1](https://github.com/ItAntoninR/semantic-gitmoji-release-test/compare/v1.0.1...v1.0.2-qualif.1) (2024-12-18)
 
 
