@@ -19,6 +19,7 @@ const loadPrivateKeyAndGenerateKid = async () => {
 
     return { privateKey, kid: kid.value }
   } catch (error) {
+    alert('test')
     console.error('Erreur lors du chargement de la clé privée:', error)
     throw error
   }
