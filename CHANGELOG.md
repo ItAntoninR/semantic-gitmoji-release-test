@@ -1,3 +1,11 @@
+# [1.2.0-qualif.2](https://github.com/ItAntoninR/semantic-gitmoji-release-test/compare/v1.2.0-qualif.1...v1.2.0-qualif.2) (2024-12-18)
+
+
+### Performance Improvements
+
+* **alert:** remove alert on error ([760b18f](https://github.com/ItAntoninR/semantic-gitmoji-release-test/commit/760b18fa07038c50f2c2721f81a94755b2e19be4))
+* **app:** remove useless title in app ([1a087e7](https://github.com/ItAntoninR/semantic-gitmoji-release-test/commit/1a087e7072056193d104f1b3e5c3c7454e967bec))
+
 # [1.2.0-qualif.1](https://github.com/ItAntoninR/semantic-gitmoji-release-test/compare/v1.1.0...v1.2.0-qualif.1) (2024-12-18)
 
 
