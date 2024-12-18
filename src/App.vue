@@ -51,7 +51,6 @@ const signDataAndSend = async () => {
       .sign(privateKey)
 
     console.log('JWT signé:', token.value)
-    alert(`JWT signé:\n${token.value}`)
   } catch (error) {
     console.error('Erreur lors de la signature:', error)
   }
