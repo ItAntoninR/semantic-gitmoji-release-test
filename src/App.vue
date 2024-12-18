@@ -16,7 +16,7 @@ const loadPrivateKeyAndGenerateKid = async () => {
     const privateKey = await jose.importPKCS8(privateKeyPem, 'RS256')
 
     kid.value = privateKey.kid || 'default-kid'
-
+    // test comment
     return { privateKey, kid: kid.value }
   } catch (error) {
     console.error('Erreur lors du chargement de la clé privée:', error)
