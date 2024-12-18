@@ -4,10 +4,6 @@
     {
       "name": "qualif",
       "prerelease": true
-    },
-    {
-      "name": "dev",
-      "prerelease": true
     }
   ],
   "ci": false,
