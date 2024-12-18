@@ -15,8 +15,6 @@ const loadPrivateKeyAndGenerateKid = async () => {
       throw new Error('Clé privée non trouvée')
     }
 
-    // Importer la clé privée au format PKCS8
-    //test
     const privateKey = await jose.importPKCS8(privateKeyPem, 'RS256')
 
     // Extraire le `kid` directement de la clé
