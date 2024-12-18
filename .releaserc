@@ -14,7 +14,12 @@
     "@semantic-release/changelog",
     "@semantic-release/git",
     "@semantic-release/github",
-    "@semantic-release/npm"
-  ],
-  "preset": "conventionalcommits"
+    [
+      "@semantic-release/npm",
+      {
+        "npmPublish": false,
+        "pkgRoot": "."
+      }
+    ]
+  ]
 }
