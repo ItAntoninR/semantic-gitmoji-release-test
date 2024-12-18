@@ -4,9 +4,11 @@ on:
   push:
     branches:
       - main
+      - qualif
   pull_request:
     branches:
       - main
+      - qualif
 
 jobs:
   install:
