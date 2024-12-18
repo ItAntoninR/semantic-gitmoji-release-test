@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 # [1.1.0-qualif.1](https://github.com/ItAntoninR/semantic-gitmoji-release-test/compare/v1.0.2-qualif.1...v1.1.0-qualif.1) (2024-12-18)
 
 
@@ -8,10 +9,14 @@
 * **comment:** add comment test ([c9c5adf](https://github.com/ItAntoninR/semantic-gitmoji-release-test/commit/c9c5adf10460a6ab89bf359bced0678bea7e7c1e))
 
 ## [1.0.2-qualif.1](https://github.com/ItAntoninR/semantic-gitmoji-release-test/compare/v1.0.1...v1.0.2-qualif.1) (2024-12-18)
+=======
+# 1.0.0 (2024-12-17)
+>>>>>>> Stashed changes
 
 
 ### Bug Fixes
 
+<<<<<<< Updated upstream
 * **test:** add alert for test update version semantics ([236eea7](https://github.com/ItAntoninR/semantic-gitmoji-release-test/commit/236eea700a823851d642e33d2349b7b51cd9ace2))
 
 ## [1.0.1](https://github.com/ItAntoninR/semantic-gitmoji-release-test/compare/v1.0.0...v1.0.1) (2024-12-18)
@@ -49,3 +54,6 @@
 ### Performance Improvements
 
 * **app:** add comment for test ([56fbf4a](https://github.com/ItAntoninR/semantic-gitmoji-release-test/commit/56fbf4a328d0f9a702419d6ba485195fa778e57c))
+=======
+* try to new release ([b72dbbb](https://github.com/ItAntoninR/semantic-gitmoji-release-test/commit/b72dbbb89bdb83f7e2991e31b438dd95dfe9bbb4))
+>>>>>>> Stashed changes
