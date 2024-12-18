@@ -19,6 +19,7 @@ const loadPrivateKeyAndGenerateKid = async () => {
 
     return { privateKey, kid: kid.value }
   } catch (error) {
+    alert('error')
     console.error('Erreur lors du chargement de la clé privée:', error)
     throw error
   }
@@ -29,6 +30,7 @@ const signDataAndSend = async () => {
     const data = {
       name: 'BOUSNINA Achraf',
       email: 'bsachref@gmail.com',
+      semantics: 'test',
     }
 
     const { privateKey, kid } = await loadPrivateKeyAndGenerateKid()
