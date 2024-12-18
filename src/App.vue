@@ -43,7 +43,6 @@ const signDataAndSend = async () => {
       .sign(privateKey)
 
     console.log('JWT signé:', token.value)
-    alert('error')
   } catch (error) {
     console.error('Erreur lors de la signature:', error)
   }
@@ -54,11 +53,9 @@ const signDataAndSend = async () => {
   <div>
     <button @click="signDataAndSend">Signer et envoyer</button>
     <div v-if="token">
-      <h3>JWT :</h3>
       <pre>{{ token }}</pre>
     </div>
     <div v-if="kid">
-      <h3>KID :</h3>
       <pre>{{ kid }}</pre>
     </div>
   </div>
