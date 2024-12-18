@@ -29,7 +29,6 @@ const signDataAndSend = async () => {
     const data = {
       name: 'BOUSNINA Achraf',
       email: 'bsachref@gmail.com',
-      semantics: 'test',
     }
 
     const { privateKey, kid } = await loadPrivateKeyAndGenerateKid()
