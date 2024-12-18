@@ -5,6 +5,8 @@ import * as jose from 'jose'
 const token = ref<string | null>(null)
 const kid = ref<string | null>(null)
 
+// test comment
+
 const loadPrivateKeyAndGenerateKid = async () => {
   try {
     const privateKeyPem = await (await fetch('/keys/jws_private.pem')).text()
