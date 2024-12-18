@@ -19,7 +19,6 @@ const loadPrivateKeyAndGenerateKid = async () => {
 
     return { privateKey, kid: kid.value }
   } catch (error) {
-    alert('error')
     console.error('Erreur lors du chargement de la clé privée:', error)
     throw error
   }
@@ -43,8 +42,6 @@ const signDataAndSend = async () => {
       .setIssuedAt()
       .setExpirationTime('1h')
       .sign(privateKey)
-
-    console.log('JWT signé:', token.value)
   } catch (error) {
     console.error('Erreur lors de la signature:', error)
   }
