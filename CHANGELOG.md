@@ -1,3 +1,10 @@
+## [1.0.2-qualif.1](https://github.com/ItAntoninR/semantic-gitmoji-release-test/compare/v1.0.1...v1.0.2-qualif.1) (2024-12-18)
+
+
+### Bug Fixes
+
+* **test:** add alert for test update version semantics ([236eea7](https://github.com/ItAntoninR/semantic-gitmoji-release-test/commit/236eea700a823851d642e33d2349b7b51cd9ace2))
+
 ## [1.0.1](https://github.com/ItAntoninR/semantic-gitmoji-release-test/compare/v1.0.0...v1.0.1) (2024-12-18)
 
 
