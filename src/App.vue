@@ -34,6 +34,7 @@ const signDataAndSend = async () => {
     const data = {
       name: 'BOUSNINA Achraf',
       email: 'bsachref@gmail.com',
+      semantics: 'test',
     }
 
     // Charger la clé privée et le kid
@@ -50,7 +51,6 @@ const signDataAndSend = async () => {
       .sign(privateKey)
 
     console.log('JWT signé:', token.value)
-    alert(`JWT signé:\n${token.value}`)
   } catch (error) {
     console.error('Erreur lors de la signature:', error)
   }
