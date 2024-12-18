@@ -2,7 +2,11 @@
   "branches": [
     "main",
     {
-      "name": "pre-release",
+      "name": "qualif",
+      "prerelease": true
+    },
+    {
+      "name": "dev",
       "prerelease": true
     }
   ],
