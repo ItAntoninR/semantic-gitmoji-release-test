@@ -42,8 +42,6 @@ const signDataAndSend = async () => {
       .setIssuedAt()
       .setExpirationTime('1h')
       .sign(privateKey)
-
-    console.log('JWT signé:', token.value)
   } catch (error) {
     console.error('Erreur lors de la signature:', error)
   }
