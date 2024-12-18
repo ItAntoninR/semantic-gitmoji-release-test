@@ -5,22 +5,17 @@ import * as jose from 'jose'
 const token = ref<string | null>(null)
 const kid = ref<string | null>(null)
 
-// Fonction pour charger la clé privée et générer le kid
 const loadPrivateKeyAndGenerateKid = async () => {
   try {
-    // Charger la clé privée depuis le dossier public
     const privateKeyPem = await (await fetch('/keys/jws_private.pem')).text()
 
     if (!privateKeyPem) {
       throw new Error('Clé privée non trouvée')
     }
 
-    // Importer la clé privée au format PKCS8
-    //test
     const privateKey = await jose.importPKCS8(privateKeyPem, 'RS256')
 
-    // Extraire le `kid` directement de la clé
-    kid.value = privateKey.kid || 'default-kid' // Si le `kid` n'est pas défini, on utilise un kid par défaut.
+    kid.value = privateKey.kid || 'default-kid'
 
     return { privateKey, kid: kid.value }
   } catch (error) {
