@@ -1,3 +1,10 @@
+# [1.2.0-qualif.3](https://github.com/ItAntoninR/semantic-gitmoji-release-test/compare/v1.2.0-qualif.2...v1.2.0-qualif.3) (2024-12-18)
+
+
+### Features
+
+* **app:** add column ([93e69c9](https://github.com/ItAntoninR/semantic-gitmoji-release-test/commit/93e69c9c685d7c7df84b81d17de48eca85f9a6d7))
+
 # [1.2.0-qualif.2](https://github.com/ItAntoninR/semantic-gitmoji-release-test/compare/v1.2.0-qualif.1...v1.2.0-qualif.2) (2024-12-18)
 
 
