@@ -1,6 +1,6 @@
 {
   "name": "test-jose-front",
-  "version": "1.0.1",
+  "version": "1.1.0-qualif.1",
   "private": true,
   "type": "module",
   "scripts": {
